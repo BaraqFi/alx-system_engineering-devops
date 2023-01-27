@@ -1,10 +1,4 @@
 #!/usr/bin/env bash
-
-This script displays its own PID
-
-echo "PID: $$"
-
-The above line uses the $$ variable, which is automatically replaced by the shell with the current process ID.
-
-The echo command simply prints the string "PID: " followed by the value of $$.
+# Display the current script's PID using echo and $$
+echo "The current script's PID is: $$"
 
